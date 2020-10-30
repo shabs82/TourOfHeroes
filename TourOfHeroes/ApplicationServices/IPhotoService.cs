@@ -10,6 +10,8 @@ namespace TourOfHeroes.Core.ApplicationServices
         Photo Create(int Id, String Name, Double Price, String Colour,String Type,DateTime DateCreated);
 
         Photo ReadById(int id);
+
+        List<Photo> ReadAllPhoto();
         Photo Update(Photo photo);
         Photo Delete(int id);
     }
